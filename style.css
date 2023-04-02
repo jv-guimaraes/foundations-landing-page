@@ -137,3 +137,39 @@ body {
     font-weight: 900;
     align-self: flex-end;
 }
+
+/* CALL TO ACTION */
+#call-to-action { 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#call-to-action #banner { 
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    padding: 60px 100px;
+    width: 80%;
+}
+
+#call-to-action #banner .text h3 { 
+    color: var(--main-text-white);
+    font-size: 25px
+}
+
+#call-to-action #banner .text p { 
+    color: var(--sub-text-white);
+}
+
+#call-to-action button { 
+    padding: 10px 50px;
+    background-color: var(--blue);
+    border: 2px solid var(--main-text-white);
+    border-radius: 6px;
+    font-size: 20px;
+    color: var(--main-text-white);
+}
