@@ -9,8 +9,12 @@
 body {
     font-family: "Roboto";
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+/* HEADER */
 #header {
     background-color: var(--dark-background);
     display: flex;
@@ -37,6 +41,7 @@ body {
     text-decoration: none;
 }
 
+/* HERO SECTION */
 #hero-section {
     background-color: var(--dark-background);
     padding: 50px var(--global-padding);
@@ -75,6 +80,7 @@ body {
     max-width: 450px;
 }
 
+/* PICTURE SECTION */
 #picture-section {
     padding: 10px var(--global-padding);
     text-align: center;
@@ -106,4 +112,28 @@ body {
     height: 200px;
     border: 4px solid var(--blue);
     border-radius: 8px;
+}
+
+/* QUOTE SECTION */
+#quote-section {
+    background-color: var(--sub-text-white);
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-section #quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: var(--dark-background);
+    max-width: 1000px;
+}
+
+#quote-section #signature {
+    font-size: 22px;
+    color: black;
+    font-weight: 900;
+    align-self: flex-end;
 }
