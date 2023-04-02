@@ -1,7 +1,8 @@
 :root {
     --global-padding: 11%;
     --dark-background: #1f2937;
-    --main-text: #f9faf8;
+    --main-text-white: #f9faf8;
+    --sub-text-white: #e5e7eb;
   }
 
 body {
@@ -20,7 +21,7 @@ body {
 #header #logo {
     font-size: 24px;
     font-weight: 900;
-    color: var(--main-text);
+    color: var(--main-text-white);
 }
 
 #header ul {
@@ -30,7 +31,7 @@ body {
 }
 
 #header ul li a {
-    color: #e5e7eb;
+    color: var(--sub-text-white);
     text-decoration: none;
 }
 
@@ -48,18 +49,17 @@ body {
 #hero-section #text h1 {
     font-size: 48px;
     font-weight: 800;
-    color: var(--main-text);
+    color: var(--main-text-white);
     margin: 0;
 }
 
 #hero-section #text p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--sub-text-white);
 }
 
 #hero-section #text button {
-    background-color: #e5e7eb;
-    color: white;
+    color: var(--main-text-white);
     font-size: 18px;
     padding: 8px 30px;
     border: none;
