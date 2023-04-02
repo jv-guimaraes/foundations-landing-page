@@ -1,20 +1,26 @@
+:root {
+    --global-padding: 11%;
+    --dark-background: #1f2937;
+    --main-text: #f9faf8;
+  }
+
 body {
     font-family: "Roboto";
     margin: 0;
 }
 
 #header {
-    background-color: #1f2937;
+    background-color: var(--dark-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 11%;
+    padding: 0 var(--global-padding);
 }
 
 #header #logo {
     font-size: 24px;
     font-weight: 900;
-    color: #f9faf8;
+    color: var(--main-text);
 }
 
 #header ul {
@@ -29,20 +35,20 @@ body {
 }
 
 #hero-section {
-    background-color: #1f2937;
-    padding: 100px 11%;
+    background-color: var(--dark-background);
+    padding: 100px var(--global-padding);
     display: flex;
     justify-content: space-between;
 }
 
 #hero-section #text {
-    max-width: 400px;
+    max-width: 450px;
 }
 
 #hero-section #text h1 {
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;
+    color: var(--main-text);
     margin: 0;
 }
 
@@ -62,5 +68,5 @@ body {
 }
 
 #hero-section img {
-    max-width: 400px;
+    max-width: 450px;
 }
